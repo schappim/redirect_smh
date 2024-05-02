@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Redirect SMH.com.au",
+  "version": "1.0",
+  "description": "Redirects smh.com.au to news.ycombinator.com",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.smh.com.au/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "redirect_rule",
+      "enabled": true,
+      "path": "redirect_rule.json"
+    }]
+  }
+}

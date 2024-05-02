@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://news.ycombinator.com"
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.smh.com.au/*",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
